@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(53, 41, 56);
+}
+
+
+.choice {
+    position: relative;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.choice select{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 40px;
+    border: black;
+}
+
+.flags {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    border: black;
+    color: white;
+    padding: 20px;
+
+}
+
+button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: black;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kapralov_Block_1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="choice">
+    <select id="country"></select>
+    <select id="place"></select>
+</div>
+
+<div class="flags">
+    <input id="numberOfPeople">
+    <input type="checkbox" id="flag" name="alert" value="alert">
+    <label for="flag">Alert</label>
+</div>
+
+<button onclick="calculate()" id="button">Calculate</button>
+
+
+
+<script src="script.js" onload="placeSelector()"></script>
+</body>
+</html>
